@@ -1,0 +1,60 @@
+# --------------------------------------------------
+# Verilog/SystemVerilog Gitignore
+# --------------------------------------------------
+
+# 綜合與模擬中間檔 (Compilation & Simulation)
+*.log
+*.jou
+*.pb
+*.wdb
+*.vcd
+*.vpd
+*.fsdb
+*.bak
+*.tmp
+*.o
+*.so
+*.elf
+*.hex
+*.mem
+*.bin
+
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+
+# Verilator
+obj_dir/
+
+# Xilinx Vivado
+*.xpr
+*.xpr.zip
+*.jou
+*.log
+*.pb
+.Xil/
+*.hw
+*.runs
+*.gen
+*.ip_user_files
+*.sim
+# 若需要提交專案檔，請註解掉下方一行
+#*.xpr
+
+# Intel / Altera Quartus
+*.qpf
+*.qsf
+*.qdf
+*.qws
+*.jdi
+*.sof
+*.pof
+*.sld
+db/
+incremental_db/
+output_files/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
