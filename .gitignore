@@ -16,7 +16,6 @@
 *.so
 *.elf
 *.hex
-*.mem
 *.bin
 
 # ModelSim / QuestaSim
